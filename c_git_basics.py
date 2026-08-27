@@ -47,8 +47,6 @@
 # 39 insertions(+) → 39 lines were added.
 
 #git init: initialises git
-#U beside a file means untracked
-#A beside a file means added / staged
 
 #git add .
 # The . means:
@@ -69,4 +67,13 @@
 #One important distinction before we continue: Git is local. Nothing has been uploaded to GitHub yet. 
 #Right now, the checkpoint exists only on your laptop
 
-pritn("learning git")
+# git status: shows me the status of the files and if anything has been modified
+#untracked → Git has never tracked this file
+# modified  → Git knows this file, but it changed
+# staged    → change is selected for the next commit
+# committed → checkpoint has been saved
+#U beside a file means untracked
+#A beside a file means added / staged
+#M beside a file means modifies
+
+print("learning git")
