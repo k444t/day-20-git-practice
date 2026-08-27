@@ -91,4 +91,42 @@
 # git restore --staged c_git_basics.py
 # This does not undo your code. It only removes the file from the staging area:
 
+# to connect git to github we ca use: git remote add origin 'the link of the repository'
+# git remote add origin <GitHub address>
+#       │       │
+#       │       └── nickname for this GitHub repository
+#       │
+#       └── add a remote connection
+
+#we will be adding the files to github by git push -u origin main
+#git push -u origin main
+#          │    │     │
+#          |    |  main: the branch you want to push
+#          |   origin: the nickname for your GitHub repository/remote connection
+#          -u: remember this connection for future pushes
+
+#So the first time:
+# git push -u origin main
+# Git learns:
+# my local main
+#      ↓
+# origin/main on GitHub
+# After that, you can usually just write:
+# git push
+# instead of:
+# git push origin main
+
+#we can rename the branch by git branch -M main
+#git branch
+#     │
+#     └── work with branches
+
+# -M
+#  │
+#  └── rename the current branch
+
+# main
+#  │
+#  └── new branch name
+
 print("learning")
