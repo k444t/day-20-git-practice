@@ -76,4 +76,19 @@
 #A beside a file means added / staged
 #M beside a file means modifies
 
-print("learning git")
+#git diff → What exactly changed inside those files?
+#to exit from it after showing you what changed simply press "q"
+
+#to restore to the previous checkpoint:
+#use git status
+#write: git restore (The file that chaged but dont write the paransthesis)
+
+#What if you've already staged the change?
+# There's an important difference. Suppose you modify a file and then do:
+# git add c_git_basics.py
+# Now the change is staged. If you decide, “Wait, I don't want this in my next commit,” 
+# you can unstage it without deleting your work:
+# git restore --staged c_git_basics.py
+# This does not undo your code. It only removes the file from the staging area:
+
+print("learning")
