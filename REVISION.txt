@@ -1,0 +1,11 @@
+venv            → isolated Python environment
+pip freeze      → record installed packages
+requirements.txt → recreate dependencies
+.gitignore      → tell Git what NOT to track
+
+git init        → start Git repo
+git status      → inspect changes
+git add .       → stage
+git commit      → local checkpoint
+git push        → upload commits to GitHub
+origin          → nickname for remote repo
